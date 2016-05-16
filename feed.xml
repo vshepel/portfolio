@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My portfolio station | Vladimir Shepel</title>
+    <description>Beautiful Web design, UI elements, templates, redesigns etc.</description>
+    <link>http://vshepel.github.io//</link>
+    <atom:link href="http://vshepel.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 16 May 2016 23:01:42 +0300</pubDate>
+    <lastBuildDate>Mon, 16 May 2016 23:01:42 +0300</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>MYCODE.PRO - Main page</title>
+        <description>
+</description>
+        <pubDate>Sat, 07 May 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/templates/mycode_main_page.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/templates/mycode_main_page.html</guid>
+        
+        <category>psd</category>
+        
+        <category>project</category>
+        
+        
+        <category>templates</category>
+        
+      </item>
+    
+      <item>
+        <title>Mail Machine. Part 2</title>
+        <description>
+</description>
+        <pubDate>Wed, 27 Apr 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/concepts/mail_machine_part2.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/concepts/mail_machine_part2.html</guid>
+        
+        <category>psd</category>
+        
+        <category>mail</category>
+        
+        
+        <category>concepts</category>
+        
+      </item>
+    
+      <item>
+        <title>Train ticket UI</title>
+        <description>
+</description>
+        <pubDate>Mon, 25 Apr 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/ui/train_ticket_ui.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/ui/train_ticket_ui.html</guid>
+        
+        <category>free</category>
+        
+        <category>psd</category>
+        
+        <category>train</category>
+        
+        <category>ticket</category>
+        
+        
+        <category>ui</category>
+        
+      </item>
+    
+      <item>
+        <title>Mail Machine. Part 1</title>
+        <description>
+</description>
+        <pubDate>Mon, 25 Apr 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/concepts/mail_machine.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/concepts/mail_machine.html</guid>
+        
+        <category>psd</category>
+        
+        <category>mail</category>
+        
+        
+        <category>concepts</category>
+        
+      </item>
+    
+      <item>
+        <title>Omat - Portfolio Template</title>
+        <description>
+</description>
+        <pubDate>Sat, 23 Apr 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/templates/omat.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/templates/omat.html</guid>
+        
+        <category>psd</category>
+        
+        <category>portfolio</category>
+        
+        
+        <category>templates</category>
+        
+      </item>
+    
+      <item>
+        <title>Pizza Ui Kit</title>
+        <description>
+</description>
+        <pubDate>Wed, 20 Apr 2016 05:44:44 +0300</pubDate>
+        <link>http://vshepel.github.io//works/ui/pizza_ui_kit.html</link>
+        <guid isPermaLink="true">http://vshepel.github.io//works/ui/pizza_ui_kit.html</guid>
+        
+        <category>free</category>
+        
+        <category>psd</category>
+        
+        <category>pizza</category>
+        
+        <category>kit</category>
+        
+        
+        <category>ui</category>
+        
+      </item>
+    
+  </channel>
+</rss>
