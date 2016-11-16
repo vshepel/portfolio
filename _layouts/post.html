@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="demopanel">
+  {% if page.download %}
+  <a id="download" href="/works/download/{{ page.link }}.zip" rel="nofollow"><i class="icon-download164"></i></a>
+  {% endif %}
+  <a class="back" href="{{ '/works' | prepend: site.url }}"><i class="icon-go10"></i></a>
+</div>
+{% if page.download %}
+<div id="download-text" class="animated">
+  <span class="close"></span>
+  <div>
+    Download starter..<br>
+    <a href="/works/download/{{ page.link }}.zip" rel="nofollow">Link</a>
+    <div class="follow">
+      If you like what I do, follow my updates<br>
+      <a class="twitter-btn" href="https://twitter.com/vlshepel" target="_blank">@vlshepel</a>
+    </div>
+  </div>
+  <img class="animated" src="{{ '/assets/img/train.svg' | prepend: site.baseurl }}">
+</div>
+{% endif %}
+
+{% if page.images %}
+<div class="image-block" style="background: #{{ page.color }}">
+  <img class="responsive" src="/works/poster/full/{{ page.link }}.png" alt="{{ page.title }}">
+</div>
+{% else %}
+<div id="demo-iframe"><iframe src="{{ '/works/demo/' | prepend: site.baseurl }}{{ page.link }}" width="100%"></iframe></div>
+{% endif %}

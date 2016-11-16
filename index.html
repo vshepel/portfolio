@@ -1,61 +1,31 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+class: station-portfolio
+---
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-touch-fullscreen" content="yes">
-    <title>Portfolio station | Vladimir Shepel</title>
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png">
-    <link rel="stylesheet" href="/assets/css/main.min.css">
-    <meta name="description" content="Beautiful web design, UI elements, templates, redesigns etc.">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@vlshepel">
-    <meta name="twitter:creator" content="@vlshepel">
-    <meta name="twitter:title" content="Portfolio station | Vladimir Shepel">
-    <meta name="twitter:url" content="http://vowwwa.com/">
-    <meta name="twitter:description" content="Beautiful web design, UI elements, templates, redesigns etc.">
-    <meta name="twitter:image:src" content="http://vowwwa.com/assets/img/poster.png">
-    <meta content="Portfolio station | Vladimir Shepel" property="og:site_name">
-    <meta content="Portfolio station | Vladimir Shepel" property="og:title">
-    <meta content="website" property="og:type">
-    <meta content="Beautiful web design, UI elements, templates, redesigns etc." property="og:description">
-    <meta content="http://vowwwa.com/" property="og:url">
-    <meta content="http://vowwwa.com/assets/img/poster.png" property="og:image">
-</head>
-
-<body class="station-portfolio">
-    <div id="white" class="animated"></div>
-    <section id="intro" class="scrollme">
-        <figure class="animated fadeInUp">
-            <h1>Hello, my name is Vladimir</h1>
-            <p>And this is my portfolio station</p>
-        </figure> <img class="train animated bounceInLeft animateme" data-when="span" data-from="0" data-to="1" data-translatex="2000" src="/assets/img/train.svg" alt=""> </section>
-    <section id="route">
-        <figure>
-            <div>
-                <h2>My work st.</h2>
-                <p>Platform #1</p> <a href="/works" class="btn">To take a train</a></div>
-        </figure>
-        <figure>
-            <div>
-                <h2>Contact st.</h2>
-                <p>Platform #2</p> <a href="/contact" class="btn">To take a train</a></div>
-        </figure> <img class="train" src="/assets/img/train.svg" alt="">
-        <div class="bridge"></div>
-    </section>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/script.min.js"></script>
-    <script src="/assets/js/libs/scroll.min.js"></script>
-    <script>
-    ! function(e, t, a, n, c, s, o) {
-        e.GoogleAnalyticsObject = c, e[c] = e[c] || function() {
-            (e[c].q = e[c].q || []).push(arguments)
-        }, e[c].l = 1 * new Date, s = t.createElement(a), o = t.getElementsByTagName(a)[0], s.async = 1, s.src = n, o.parentNode.insertBefore(s, o)
-    }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"), ga("create", "UA-76501992-1", "auto"), ga("send", "pageview")
-    </script>
-</body>
-
-</html>
+<div id="white" class="animated"></div>
+<section id="intro" class="scrollme">
+    <figure class="animated fadeInUp">
+        <h1>Hello, my name is Vladimir</h1>
+        <p>And this is my portfolio station</p>
+    </figure>
+    <img class="train animated bounceInLeft animateme" data-when="span" data-from="0" data-to="1" data-translatex="2000" src="{{ '/assets/img/train.svg' | prepend: site.baseurl }}" alt="">
+</section>
+<section id="route">
+    <figure>
+        <div>
+            <h2>My work st.</h2>
+            <p>Platform #1</p>
+            <a href="{{ '/works' | prepend: site.baseurl }}" class="btn">To take a train</a>
+        </div>
+    </figure>
+    <figure>
+        <div>
+            <h2>Contact st.</h2>
+            <p>Platform #2</p>
+            <a href="{{ '/contact' | prepend: site.baseurl }}" class="btn">To take a train</a>
+        </div>
+    </figure>
+    <img class="train" src="{{ '/assets/img/train.svg' | prepend: site.baseurl }}" alt="">
+    <div class="bridge"></div>
+</section>

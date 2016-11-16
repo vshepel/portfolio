@@ -1,1 +1,58 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><title>My works station | Vladimir Shepel</title><link rel="icon" type="image/png" href="/assets/img/favicon.png"><link rel="stylesheet" href="/assets/css/libs/normalize.min.css"><link rel="stylesheet" href="/assets/css/style.min.css"><link rel="stylesheet" href="/assets/css/media.min.css"><link rel="stylesheet" href="/assets/css/libs/icons.min.css"><link rel="stylesheet" href="/assets/css/libs/animate.min.css"><meta name="description" content="Beautiful web design, UI elements, templates, redesigns etc."><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@vlshepel"><meta name="twitter:creator" content="@vlshepel"><meta name="twitter:title" content="My works station | Vladimir Shepel"><meta name="twitter:url" content="http://vowwwa.com/works/"><meta name="twitter:description" content="Beautiful web design, UI elements, templates, redesigns etc."><meta name="twitter:image:src" content="http://vowwwa.comassets/img/poster.png"><meta content="Portfolio station | Vladimir Shepel" property="og:site_name"><meta content="My works station | Vladimir Shepel" property="og:title"><meta content="article" property="og:type"><meta content="Beautiful web design, UI elements, templates, redesigns etc." property="og:description"><meta content="http://vowwwa.com/works/" property="og:url"><meta content="http://vowwwa.comassets/img/poster.png" property="og:image"></head><body class="station-works"><div id="white" class="visable animated fadeOut"></div> <header> <figure><div class="panel-link"> <a class="back-link" href="http://vowwwa.com" title="Back to Portfolio Station"><i class="icon-home149"></i></a> \ <a class="next-link" href="/contact" title="Go on Contact Station"><i class="icon-right244"></i></a></div><h1>My works</h1><p>Station</p> </figure> <img id="train" class="animated bounceInLeft" src="/assets/img/train.svg"> </header> <main><div class="button-group filters-button-group"> <button class="button is-checked" data-filter="*">all <button class="button" data-filter=".ui">UI Design <button class="button" data-filter=".templates">Templates <button class="button" data-filter=".concepts">Concepts</div><div class="work_list"><div class="column_size"></div><div class="work templates size11"><div> <a href="/works/templates/mycode_main_page.html" target="_blank" class="work_link"> <img src="/works/poster/mycodemain.png" alt="MYCODE.PRO - Main page"> <i class="icon-move26 animated"></i> </a><div> <span>MYCODE.PRO - Main page</span> <br> <small> <span>psd</span> <span>project</span> </small></div></div></div><div class="work concepts size11"><div> <a href="/works/concepts/mail_machine_part2.html" target="_blank" class="work_link"> <img src="/works/poster/mailmachine2.png" alt="Mail Machine. Part 2"> <i class="icon-move26 animated"></i> </a><div> <span>Mail Machine. Part 2</span> <br> <small> <span>psd</span> <span>mail</span> </small></div></div></div><div class="work ui size11"><div> <a href="/works/ui/train_ticket_ui.html" target="_blank" class="work_link"> <img src="/works/poster/ticket.png" alt="Train ticket UI"> <i class="icon-move26 animated"></i> </a><div> <span>Train ticket UI</span> <br> <small> <span>free</span> <span>psd</span> <span>train</span> <span>ticket</span> </small></div></div></div><div class="work concepts size11"><div> <a href="/works/concepts/mail_machine.html" target="_blank" class="work_link"> <img src="/works/poster/mailmachine.png" alt="Mail Machine. Part 1"> <i class="icon-move26 animated"></i> </a><div> <span>Mail Machine. Part 1</span> <br> <small> <span>psd</span> <span>mail</span> </small></div></div></div><div class="work templates size11"><div> <a href="/works/templates/omat.html" target="_blank" class="work_link"> <img src="/works/poster/omat.png" alt="Omat - Portfolio Template"> <i class="icon-move26 animated"></i> </a><div> <span>Omat - Portfolio Template</span> <br> <small> <span>psd</span> <span>portfolio</span> </small></div></div></div><div class="work ui size11"><div> <a href="/works/ui/pizza_ui_kit.html" target="_blank" class="work_link"> <img src="/works/poster/pizza.png" alt="Pizza Ui Kit"> <i class="icon-move26 animated"></i> </a><div> <span>Pizza Ui Kit</span> <br> <small> <span>free</span> <span>psd</span> <span>pizza</span> <span>kit</span> </small></div></div></div></div></main><footer> Choo Choo </footer><script src="/assets/js/jquery.min.js"></script><script src="/assets/js/script.min.js"></script><script src="/assets/js/libs/masonry.min.js"></script><script src="/assets/js/libs/isotope.min.js"></script><script src="/assets/js/items.min.js"></script><script>!function(e,t,a,n,c,s,o){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,s=t.createElement(a),o=t.getElementsByTagName(a)[0],s.async=1,s.src=n,o.parentNode.insertBefore(s,o)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-76501992-1","auto"),ga("send","pageview")</script></body></html>
+---
+title: My works station | Vladimir Shepel
+layout: default
+class: station-works
+---
+
+<div id="white" class="visable animated fadeOut"></div>
+<header>
+    <figure>
+        <div class="panel-link">
+            <a class="back-link" href="{{ site.url }}" title="Back to Portfolio Station"><i class="icon-home149"></i></a> \ <a class="next-link" href="{{ '/contact' | prepend: site.baseurl }}" title="Go on Contact Station"><i class="icon-right244"></i></a>
+        </div>
+        <h1>My works</h1>
+        <p>Station</p>
+    </figure>
+    <img id="train" class="animated bounceInLeft" src="{{ '/assets/img/train.svg' | prepend: site.baseurl }}">
+</header>
+<main>
+    <div class="button-group filters-button-group">
+        <button class="button is-checked" data-filter="*">all
+        <button class="button" data-filter=".ui">UI Design
+        <button class="button" data-filter=".templates">Templates
+        <button class="button" data-filter=".concepts">Concepts
+    </div>
+
+    {% if site.posts.size > 0 %}
+    <div class="work_list">
+        <div class="column_size"></div>
+        {% for post in site.posts %}
+        <div class="work {{ post.categories }} {{ post.size }}">
+            <div>
+                <a href="{{ post.url | prepend: site.baseurl }}" target="_blank" class="work_link">
+                    <img src="/works/poster/{{ post.link }}.png" alt="{{ post.title }}">
+                    <i class="icon-move26 animated"></i>
+                </a>
+                <div>
+                    <span>{{ post.title }}</span>
+                    <br>
+                    <small>
+                        {% for tag in post.tags %}
+                        <span>{{ tag }}</span>
+                        {% endfor %}
+                    </small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="nope-post">
+        <i class="icon-work3"></i>
+        New works will be soon
+    </p>
+    {% endif %}
+
+</main>
+
+{% include footer.html %}
