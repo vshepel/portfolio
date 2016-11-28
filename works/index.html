@@ -8,7 +8,7 @@ class: station-works
 <header>
     <figure>
         <div class="panel-link">
-            <a class="back-link" href="{{ site.url }}" title="Back to Portfolio Station"><i class="icon-home149"></i></a> \ <a class="next-link" href="{{ '/contact' | prepend: site.baseurl }}" title="Go on Contact Station"><i class="icon-right244"></i></a>
+            <a class="back-link" href="{{ site.url }}" title="Back to Portfolio Station"><i class="icon">home</i></a> \ <a class="next-link" href="{{ '/contact' | prepend: site.baseurl }}" title="Go on Contact Station"><i class="icon">arrow_forward</i></a>
         </div>
         <h1>My works</h1>
         <p>Station</p>
@@ -31,7 +31,7 @@ class: station-works
             <div>
                 <a href="{{ post.url | prepend: site.baseurl }}" target="_blank" class="work_link">
                     <img src="/works/poster/{{ post.link }}.png" alt="{{ post.title }}">
-                    <i class="icon-move26 animated"></i>
+                    <i class="icon animated">open_in_new</i>
                 </a>
                 <div>
                     <span>{{ post.title }}</span>

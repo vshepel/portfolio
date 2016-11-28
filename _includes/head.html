@@ -11,17 +11,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/libs/normalize.min.css' | prepend: site.baseurl }}">
   {% endif %}
 
-  {% if page.path contains '_posts' %}
-  <link rel="stylesheet" href="{{ '/assets/css/demo.min.css' | prepend: site.baseurl }}">
-  {% endif %}
-  {% if page.class == 'station-portfolio' %}
   <link rel="stylesheet" href="{{ '/assets/css/main.min.css' | prepend: site.baseurl }}">
-  {% else %}
-  <link rel="stylesheet" href="{{ '/assets/css/style.min.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ '/assets/css/media.min.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ '/assets/css/libs/icons.min.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ '/assets/css/libs/animate.min.css' | prepend: site.baseurl }}">
-  {% endif %}
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 

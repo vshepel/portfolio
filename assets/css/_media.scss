@@ -1,0 +1,123 @@
+@media all and (max-width: 1024px) {
+    .work_list {
+        .grid-sizer,
+        .work {
+            width: calc(100% / 3);
+        }
+        .work {
+            &.size21 {
+                width: calc((100% / 3)*2);
+            }
+            &.size22 {
+                width: calc((100% / 3)*2);
+            }
+        }
+    }
+}
+
+@media all and (max-width: 768px) {
+    .station-portfolio {
+        p {
+            font-size: 1em;
+        }
+        #intro {
+            figure {
+                h1 {
+                    font-size: 1.8em;
+                }
+            }
+            .train {
+                position: absolute;
+                right: calc(50% - 300px);
+                bottom: 70px;
+                width: 600px;
+                animation-fill-mode: none;
+            }
+        }
+        #route {
+            &:before {
+                display: none;
+            }
+            figure {
+                float: none;
+                width: 100%;
+                height: 30vh;
+                padding: 20% 0 0;
+                h2 {
+                    font-size: 1.5em;
+                }
+                .btn {
+                    margin: 15px 0 0;
+                }
+            }
+        }
+    }
+    
+    .work_list {
+        .grid-sizer,
+        .work {
+            width: 50%;
+        }
+        .work {
+            &.size21 {
+                width: 50%;
+                &:before {
+                    padding-top: 100%;
+                }
+            }
+            &.size22 {
+                width: 50%;
+                ;
+            }
+        }
+    }
+    
+    .station-contact {
+        .social-links {
+            width: 100%;
+            > a {
+                width: calc(100% / 2 - 1px);
+                &:nth-child(3n) {
+                    border-right: 1px solid $sky;
+                }
+                &:nth-child(n+4) {
+                    border-bottom: 1px solid $sky;
+                }
+                &:nth-child(2n) {
+                    border-right: none;
+                }
+                &:nth-child(n+5) {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+}
+
+@media all and (max-width: 598px) {
+    .work_list {
+        .grid-sizer,
+        .work {
+            width: 100%;
+        }
+        .work {
+            &.size12 {
+                &:before {
+                    padding-top: 100%;
+                }
+            }
+            &.size21 {
+                width: 100%;
+                &:before {
+                    padding-top: 100%;
+                }
+            }
+            &.size22 {
+                width: 100%;
+                ;
+            }
+        }
+    }
+
+}
