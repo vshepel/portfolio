@@ -3,12 +3,9 @@ layout: default
 ---
 
 <div class="demopanel">
-  {% if page.download %}
-  <a id="download" href="/works/download/{{ page.link }}.zip" rel="nofollow"><i class="icon">file_download</i></a>
-  {% endif %}
+  {% if page.download %}<a id="download" href="/works/download/{{ page.link }}.zip" rel="nofollow"><i class="icon">file_download</i></a>{% endif %}
   <a class="back" href="{{ '/works' | prepend: site.url }}"><i class="icon">arrow_back</i></a>
-</div>
-{% if page.download %}
+</div>{% if page.download %}
 <div id="download-text" class="animated">
   <span class="close"></span>
   <div>
@@ -20,13 +17,9 @@ layout: default
     </div>
   </div>
   <img class="animated" src="{{ '/assets/img/train.svg' | prepend: site.baseurl }}">
-</div>
-{% endif %}
+</div>{% endif %}
 
-{% if page.images %}
-<div class="image-block" style="background: #{{ page.color }}">
+{% if page.images %}<div class="image-block" style="background: #{{ page.color }}">
   <img class="responsive" src="/works/poster/full/{{ page.link }}.png" alt="{{ page.title }}">
-</div>
-{% else %}
-<div id="demo-iframe"><iframe src="{{ '/works/demo/' | prepend: site.baseurl }}{{ page.link }}" width="100%"></iframe></div>
-{% endif %}
+</div>{% else %}
+<div id="demo-iframe"><iframe src="{{ '/works/demo/' | prepend: site.baseurl }}{{ page.link }}" width="100%"></iframe></div>{% endif %}
