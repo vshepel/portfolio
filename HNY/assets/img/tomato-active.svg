@@ -1,0 +1,143 @@
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 619.40648 680.63665" height="50mm" width="174.81027mm">
+    <style>
+    .s0 {
+        fill: #d73f3f;
+    }
+    
+    .s1 {
+        block-progression: tb;
+        fill: none;
+        font-family: sans-serif;
+        isolation: auto;
+        line-height: normal;
+        mix-blend-mode: normal;
+        solid-color: #000000;
+        text-align: start;
+        text-decoration-color: #000000;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+        text-decoration: none;
+        text-indent: 0;
+        text-transform: none;
+        white-space: normal;
+    }
+    
+    .s2 {
+        fill: #25755d;
+    }
+    
+    .s3 {
+        fill: #ee6262;
+    }
+    
+    .s4 {
+        fill: #000;
+        font-family: sans-serif;
+        font-size: 40px;
+        letter-spacing: 0px;
+        line-height: 125%;
+        word-spacing: 0px;
+    }
+    
+    .s5 {
+        fill: none;
+        stroke-width: 13;
+        stroke: #b31010;
+    }
+    
+    .s6 {
+        fill: none;
+        stroke-width: 8;
+        stroke: #000;
+    }
+    
+    .s7 {
+        fill: #3498db;
+    }
+    
+    .s8 {
+        fill: #f1c40f;
+    }
+    
+    .s9 {
+        fill: #51ca75;
+    }
+    
+    .s10 {
+        fill: #56b773;
+    }
+    
+    .s11 {
+        fill: #fff;
+    }
+
+    .green {
+        fill: #2ecc71;
+    }
+    .blue {
+        fill: #3498db;
+    }
+    .purple {
+        fill: #9b59b6;
+    }
+    .yellow {
+        fill: #f1c40f;
+    }
+    </style>
+    <ellipse cx="312.32947" cy="406.41666" rx="307.077" ry="274.22" fill="#d73f3f" />
+    <path overflow="visible" white-space="normal" d="m297.01915 156.96396c-152.93004 0-277.006753 104.70019-277.006753 233.96893 0 129.26873 124.076713 233.96892 277.006753 233.96892 152.9312 0 277.00443-104.70019 277.00443-233.96892 0-129.26874-124.07323-233.97125-277.00443-233.97125zm0 1.15868c152.40284 0 275.84576 104.28422 275.84576 232.81025 0 128.52718-123.44292 232.81025-275.84576 232.81025-152.40052 0-275.848078-104.28307-275.848078-232.81025 0-128.52603 123.445238-232.81257 275.848078-232.81257z" style="block-progression:tb;fill:#fff;font-family:sans-serif;isolation:auto;line-height:normal;mix-blend-mode:normal;solid-color:#000000;text-align:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-transform:none;white-space:normal" />
+    <ellipse ry="272.72" rx="300.17749" cy="407.91666" cx="305.42996" fill="#ee4343" />
+    <path d="m208.81992 148.58214c0 0 73.74464 52.77857 237 16.63672-102.73391-56.22065-237-16.63672-237-16.63672z" fill="#d73f3f" />
+    <path d="m315.15548 167.91367c0 0 114.77 5.194 175.503-75.554-103.77 58.553-167.708 30.273-167.708 30.273z" fill="#2f6b59" />
+    <path overflow="visible" white-space="normal" d="m309.47248 201.06067c-131.987 0-239.072 90.362-239.072 201.928 0 111.566 107.085 201.928 239.072 201.928 131.988 0 239.07-90.362 239.07-201.928 0-111.566-107.082-201.93-239.07-201.93zm0 1c131.532 0 238.07 90.003 238.07 200.928 0 110.926-106.538 200.928-238.07 200.928-131.53 0-238.072-90.002-238.072-200.928 0-110.925 106.54-200.93 238.072-200.93z" class="s1" />
+    <path d="m340.16148 1.540674c-34.246 89.645996-51.264 165.161996-51.264 165.161996 0 0 22.58833 3.59167 58.35333-0.43333 0 0-13.67833-67.93167 35.17267-156.066666-10.576-15.612-42.262-8.66-42.262-8.66zM317.44148 168.02867" fill="#25755d" />
+    <path d="m317.44148 168.02867c0 0-130.435 5.98-199.456-86.956 117.934 67.39 205.067 41.506 205.067 41.506z" fill="#25755d" />
+    <ellipse cx="407.51208" cy="408.87662" rx="34" ry="107" transform="matrix(0.9824504,-0.18652404,0.18652404,0.9824504,0,0)" fill="#ee6262" />
+    <ellipse cx="531.5296" cy="441.61435" rx="17" ry="38" transform="matrix(0.99597876,0.08958964,-0.08958964,0.99597876,0,0)" fill="#ee6262" />
+    <flowRoot xml:space="preserve" transform="translate(-49.25312,-175.47245)" class="s4">
+        <flowRegion>
+            <rect width="240" height="370" x="-556" y="212.3622" />
+        </flowRegion>
+    </flowRoot>
+    <path d="m385.72 421.14286c0 20.26624-8.21452 38.61387-21.49559 51.89494-13.28107 13.28108-31.62871 21.49559-51.89494 21.49559-20.26624 0-38.61387-8.21451-51.89495-21.49559-13.28107-13.28107-21.49559-31.6287-21.49559-51.89494z" fill="#b31010" />
+    <path d="m336.60455 491.12216c0-5.81247-2.71711-11.07466-7.11008-14.88374-4.39297-3.80908-10.4618-6.16505-17.16525-6.16505-6.70345 0-12.77229 2.35597-17.16525 6.16505-4.39297 3.80908-7.11008 9.07127-7.11008 14.88374 24.99548 8.81446 48.55066 0 48.55066 0z" fill="#f05d5d" />
+    <path d="m310.79323 198.88538c-131.987 0-239.072 90.362-239.072 201.928 0 111.566 107.0849 201.928 239.072 201.928 131.988 0 239.07-90.362 239.07-201.928 0-111.566-107.082-201.93-239.07-201.93zm0 1c131.532 0 238.07 90.003 238.07 200.928 0 110.926-106.538 200.928-238.07 200.928-131.53 0-238.072-90.002-238.072-200.928 0-110.925 106.54-200.93 238.072-200.93z" white-space="normal" overflow="visible" class="s1" />
+    <flowRoot transform="translate(1112.0676,-245.64774)" xml:space="preserve" class="s4">
+        <flowRegion>
+            <rect y="212.3622" x="-556" height="370" width="240" />
+        </flowRegion>
+    </flowRoot>
+    <path d="m415.84773 328.10338c0 0 25-33 50 0M141.52703 328.10338" class="s5" />
+    <path d="m141.52703 328.10338c0 0 25-33 50 0" class="s5" />
+    <path d="M34.162865 287.26863C111.53229 495.26176 229.15301 579.10919 334.5412 608.14236c105.38817 29.03317 172.07956 9.19858 172.07956 9.19858l22.12006-16.80163c0 0-87.39998 21.26609-190.66041-7.18091C234.81995 564.91139 115.79223 485.10502 39.161642 279.09815Z" style="baseline-shift:baseline;block-progression:tb;color-interpolation-filters:linearRGB;color-interpolation:sRGB;color-rendering:auto;direction:ltr;fill:#d73f3f;font-family:sans-serif;font-size:medium;image-rendering:auto;isolation:auto;letter-spacing:normal;line-height:normal;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;solid-opacity:1;text-align:start;text-anchor:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-rendering:auto;text-transform:none;white-space:normal;word-spacing:normal;writing-mode:lr-tb" />
+    <g transform="matrix(0.99601067,-0.08923417,0.08923417,0.99601067,-107.3296,-44.318051)">
+        <path d="m540.22958 723.56814 0-27" class="s7" />
+        <circle r="22.5" cy="745.06818" cx="540.22955" class="blue" />
+    </g>
+    <g transform="translate(546.52703,54.99999)">
+        <path d="m-171.25 568.6367 0-27" class="s7" />
+        <circle r="22.5" cy="590.13672" cx="-171.25" class="green" />
+    </g>
+    <g transform="matrix(0.83779637,0.54598283,-0.54598283,0.83779637,565.62793,183.61944)">
+        <path d="m-371.93818 402.54166 0-27" class="s7" />
+        <circle r="22.5" cy="424.04169" cx="-371.93817" class="yellow" />
+    </g>
+    <g transform="matrix(0.88340661,0.46860727,-0.46860727,0.88340661,743.99157,187.19501)">
+        <path d="m-472.11441 514.10908 0-27" class="s7" />
+        <circle r="22.5" cy="537.17877" cx="-472.34732" class="purple" />
+    </g>
+    <g transform="matrix(0.94208444,0.33537577,-0.33537577,0.94208444,646.83944,258.54475)">
+        <path d="m-371.93818 402.54166 0-27" class="s7" />
+        <circle r="22.5" cy="424.04169" cx="-371.93817" class="yellow" />
+    </g>
+    <g transform="matrix(0.93937425,0.34289357,-0.34289357,0.93937425,4.933696,-276.38937)">
+        <path d="m540.22958 723.56814 0-27" class="s7" />
+        <circle r="22.5" cy="745.06818" cx="540.22955" class="blue" />
+    </g>
+    <path d="m39.065539 278.83564c77.369421 207.99313 200.909251 286.85384 306.297431 315.88701 105.38817 29.03317 182.25025 7.51542 182.25025 7.51542l9.19043-8.51806c0 0-86.05524 21.73675-189.31568-6.71025C244.22752 558.56275 120.6949 476.67203 44.064316 270.66516Z" style="baseline-shift:baseline;block-progression:tb;color-interpolation-filters:linearRGB;color-interpolation:sRGB;color-rendering:auto;direction:ltr;fill:#e9e9e9;font-family:sans-serif;font-size:medium;image-rendering:auto;isolation:auto;letter-spacing:normal;line-height:normal;mix-blend-mode:normal;shape-rendering:auto;solid-color:#000000;solid-opacity:1;text-align:start;text-anchor:start;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-decoration:none;text-indent:0;text-rendering:auto;text-transform:none;white-space:normal;word-spacing:normal;writing-mode:lr-tb" />
+    <flowRoot xml:space="preserve" transform="translate(-617.05555,-257.1541)" class="s4">
+        <flowRegion>
+            <rect width="240" height="370" x="-556" y="212.3622" />
+        </flowRegion>
+    </flowRoot>
+</svg>

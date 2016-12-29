@@ -1,0 +1,504 @@
+@import "libs/normalize.min";
+@import "libs/animate";
+@font-face {
+    font-family: 'Flow Ext';
+    src: local('Flow Ext'), local('FlowExt'), url('../fonts/flowext.woff2') format('woff2'), url('../fonts/flowext.woff') format('woff'), url('../fonts/flowext.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flow Ext';
+    src: local('Flow Ext Bold'), local('FlowExt-Bold'), url('../fonts/flowextbold.woff2') format('woff2'), url('../fonts/flowextbold.woff') format('woff'), url('../fonts/flowextbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url('../fonts/ubuntubold.woff2') format('woff2'), url('../fonts/ubuntubold.woff') format('woff'), url('../fonts/ubuntubold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu Italic'), local('Ubuntu-Italic'), url('../fonts/ubuntuitalic.woff2') format('woff2'), url('../fonts/ubuntuitalic.woff') format('woff'), url('../fonts/ubuntuitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Intro';
+    src: local('Intro'), url('../fonts/intro.woff2') format('woff2'), url('../fonts/intro.woff') format('woff'), url('../fonts/intro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+$white: #ffffff;
+$sky: #e0f3f5;
+$green: #51ca75;
+$text: #859193;
+$paper: #ffee99;
+$pborder: #e9b18c;
+$pline: #e9d98c;
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+    color: $text;
+    opacity: .2;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+::-moz-placeholder {
+    color: $text;
+    opacity: .2;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+:-ms-input-placeholder {
+    color: $text;
+    opacity: .2;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+:-moz-placeholder {
+    color: $text;
+    opacity: .2;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+    color: $text;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background: $sky;
+}
+
+#white {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: $white;
+    opacity: 1;
+    z-index: 9999;
+    pointer-events: none;
+    line-height: 100vh;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: 'Flow Ext', sans-serif;
+    span {
+    	color: #000;
+    	opacity: .2;
+    }
+    &.animated {
+        animation-delay: 2s;
+        animation-duration: 2s;
+    }
+}
+
+#mute {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    z-index: 7;
+    button {
+        background: none;
+        outline: none;
+        border: none;
+        display: inline-block;
+        text-transform: uppercase;
+        color: $sky;
+    }
+}
+
+.lights {
+    margin-top: 15px;
+    position: relative;
+    transition: all .5s ease;
+    left: 0;
+    &.animated {
+		animation-delay: 2s;
+	} 
+}
+
+.snow {
+	position: absolute;
+	bottom: -50px;
+	left: 0;
+	pointer-events: none;
+	z-index: -1;
+	transition: all .5s ease;
+	z-index: 6;
+	&.animated {
+		animation-delay: 2s;
+	} 
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    pointer-events: none;
+    z-index: 100;
+}
+
+.toggleColor {
+    .green {
+        fill: #f1c40f !important;
+    }
+    .blue {
+        fill: #9b59b6 !important;
+    }
+    .purple {
+        fill: #3498db !important;
+    }
+    .yellow {
+        fill: #2ecc71 !important;
+    }
+}
+
+#main {
+	width: 400%;
+	left: 0;
+	position: relative;
+	transition: all .4s ease;
+}
+.content {
+	width: 25%;
+	float: left;
+	position: relative;
+	&.two {
+		.paper {
+			margin-top: 100px;
+		}
+	}
+	&.four {
+		.cart {
+			span {
+				opacity: 1;
+				color: $text;
+			}
+		}
+	}
+}
+
+.head {
+    padding-top: 40px;
+    .tomato {
+        display: inline-block;
+        &.animated.shake {
+            .s6 {
+                opacity: 1 !important;
+            }
+            .eye {
+                fill: none !important;
+                opacity: 0 !important;
+            }
+        }
+    }
+    svg {
+        width: 160px;
+    }
+    .next svg {
+    	cursor: pointer;
+    }
+    h1 {
+        font-family: 'Intro', sans-serif;
+        color: $text;
+        font-size: 2.6em;
+        text-shadow: 5px 5px 0px #c2dcdf;
+        margin: 0;
+    }
+}
+
+.paper {
+    background: linear-gradient(to bottom, $paper 44px, $pline 1px);
+    background-size: 100% 45px;
+    width: 620px;
+    border-radius: 4px;
+    margin: 50px auto 0;
+    padding: 45px 0 90px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    font-family: 'Flow Ext', sans-serif;
+    font-size: 1.1em;
+    text-align: left;
+    line-height: 2.6em;
+    color: #6f6f6d;
+    overflow: hidden;
+    z-index: 5;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 65px;
+        width: 2px;
+        height: 100%;
+        background: $pborder;
+        z-index: 3;
+    }
+    &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 85px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: $paper url('../img/tree-one.svg') repeat-x 40% 100%;
+        background-size: cover;
+    }
+    p {
+    	margin: 0;
+    	padding: 0 20px 0 85px;
+    }
+    .title {
+    	background: $paper;
+    	width: 100%;
+    	font-weight: bold;
+    	font-size: 1.5em;
+    	padding: 0 20px 0 85px;
+    	margin-top: -45px;
+    	height: 90px;
+    	line-height: 110px;
+    }
+    .block {
+    	background: $paper;
+    	width: 100%;
+    	height: 135px;
+    	line-height: 135px;
+    	padding: 0;
+    	text-align: center;
+    }
+    .btn {
+    	background: $green;
+    	display: inline-block;
+    	line-height: normal;
+    	font-family: 'Ubuntu', sans-serif;
+    	color: $white;
+    	height: 50px;
+    	line-height: 50px;
+    	padding: 0 40px;
+    	text-transform: uppercase;
+    	font-size: .8em;
+    	border-radius: 50px;
+    	cursor: pointer;
+    	transition: all .1s linear;
+    	&:hover {
+    		box-shadow: 0px 6px 20px 0px rgba(81, 202, 117, 0.6);
+    	}
+    }
+}
+
+.carts {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	padding: 0 150px;
+	z-index: 0;
+	transition: all .5s ease-out;
+    &.animated {
+    	animation-delay: .5s;
+    }
+	.cart {
+		width: 280px;
+		background: $white;
+		height: 150px;
+		line-height: 150px;
+		float: left;
+
+		span {
+			opacity: .1;
+			font-size: 1.5em;
+		}
+		&:last-child {
+			float: right;
+		}
+	}
+	&.row-one {
+		top: 150px;
+	}
+	&.row-two {
+		top: 450px;
+	}
+}
+
+.notes {
+	width: 850px;
+	margin: 100px auto 0;
+}
+.note {
+	width: 400px;
+	display: inline-block;
+	background: $white;
+	height: 230px;
+	margin: 10px;
+	border-radius: 4px;
+	box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+	transition: all .5s linear;
+	input {
+		text-align: center;
+		border: none;
+		outline: none;
+		background: none;
+		font-size: 3em;
+		width: 90%;
+		color: $text;
+		margin-top: 80px;
+		text-transform: uppercase;
+		font-family: 'Flow Ext', sans-serif;
+		font-weight: bold;
+		transition: all .5s linear;
+	}
+	p {
+		color: $text;
+		font-style: italic;
+		font-size: .85em;
+		margin: 20px 0 0;
+	}
+	&.disable {
+		box-shadow: none;
+		opacity: .6;
+		p {
+			opacity: 0;
+		}
+	}
+	&.complete {
+		background: $green;
+		input {
+			color: $white;
+		}
+		p {
+			color: $white;
+		}
+	}
+	&.error {
+		input {
+			color: #d73f3f;
+		}
+	}
+}
+
+.cart-animated {
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+}
+
+.cart-rotate {
+  -webkit-animation-name: cart-rotate;
+  animation-name: cart-rotate;
+}
+
+@-webkit-keyframes cart-rotate {
+    from {
+    	transform: rotate(0);
+    }
+    25% {
+    	transform: rotate(15deg);
+    }
+    50% {
+    	transform: rotate(0);
+    }
+    75% {
+    	transform: rotate(-15deg);
+    }
+    to {
+    	transform: rotate(0);
+    }
+}
+
+@keyframes cart-rotate {
+    from {
+    	transform: rotate(0);
+    }
+    25% {
+    	transform: rotate(15deg);
+    }
+    50% {
+    	transform: rotate(0);
+    }
+    75% {
+    	transform: rotate(-15deg);
+    }
+    to {
+    	transform: rotate(0);
+    }
+}
+
+.cart-rotate-back {
+  -webkit-animation-name: cart-rotate-back;
+  animation-name: cart-rotate-back;
+}
+
+@-webkit-keyframes cart-rotate-back {
+    from {
+    	transform: rotate(0);
+    }
+    25% {
+    	transform: rotate(-15deg);
+    }
+    50% {
+    	transform: rotate(0);
+    }
+    75% {
+    	transform: rotate(15deg);
+    }
+    to {
+    	transform: rotate(0);
+    }
+}
+
+@keyframes cart-rotate-back {
+    from {
+    	transform: rotate(0);
+    }
+    25% {
+    	transform: rotate(-15deg);
+    }
+    50% {
+    	transform: rotate(0);
+    }
+    75% {
+    	transform: rotate(15deg);
+    }
+    to {
+    	transform: rotate(0);
+    }
+}

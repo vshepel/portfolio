@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>С Новым Годом!</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <script src="assets/js/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie/html5shiv.min.js"></script>
+    <script src="assets/js/ie/respond.min.js"></script>
+    <![endif]-->
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+    <audio id="player" loop="true" autoplay="true">
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <div id="mute">
+        <button onclick="document.getElementById('player').muted=!document.getElementById('player').muted">Stop, pleese</button>
+    </div>
+    <div id="white" class="animated fadeOut"><span>Загрузка подарка..</span></div>
+    <div class="lights animated slideInDown">
+        <img class="svg" src="assets/img/lights.svg" alt="">
+    </div>
+    <div id="main">
+        <div class="content one">
+            <div class="head">
+                <div class="next tomato animated">
+                    <img class="svg" src="assets/img/tomato.svg" alt="">
+                </div>
+                <h1>С Новым Годом!</h1>
+            </div>
+            <div class="paper">
+                <p>
+                    Ну вот мы и вместе в этот новогодний праздник!
+                    <br> Знаю как приятно получать подарки в этот день и по этому случаю, я приготовил тебе один.. Скорей смотри что там!
+                </p>
+            </div>
+        </div>
+        <div class="content two">
+            <div class="paper">
+                <div class="title">Но сначала тебя ждет испытание!</div>
+                <p>
+                    Думала все так просто? Попробуй найти свой подарок!
+                    <br>
+                    <b>4</b> записки с подсказками спрятаны в твоей квартире..
+                </p>
+                <div class="block">
+                    <div class="btn start">Начать поиск</div>
+                </div>
+            </div>
+            <div class="carts row-one">
+                <div class="cart one">
+                    <span>█ █ - █ █ - █ █</span>
+                </div>
+                <div class="cart two">
+                    <span>█ █ - █ - █ █ - █ █</span>
+                </div>
+            </div>
+            <div class="carts row-two">
+                <div class="cart three">
+                    <span>█ █ - █ - █ █</span>
+                </div>
+                <div class="cart four">
+                    <span>█ - █ █ - █ █ - █ █</span>
+                </div>
+            </div>
+        </div>
+        <div class="content three">
+            <div class="notes">
+                <div class="note">
+                    <input id="note-input-1" type="text" placeholder="█ █ - █ █ - █ █">
+                    <p>Она там, где ты хранишь наши даты</p>
+                </div>
+                <div class="note disable">
+                    <input id="note-input-2" type="text" placeholder="█ █ - █ - █ █ - █ █" disabled>
+                    <p>Прячется за помидоркой в комнате</p>
+                </div>
+                <div class="note disable">
+                    <input id="note-input-3" type="text" placeholder="█ █ - █ - █ █" disabled>
+                    <p>Ночью почти касалась твоей головы</p>
+                </div>
+                <div class="note disable">
+                    <input id="note-input-4" type="text" placeholder="█ - █ █ - █ █ - █ █" disabled>
+                    <p>Ты ёлку хорошо осмотрела?</p>
+                </div>
+            </div>
+        </div>
+        <div class="content four">
+            <div class="head">
+                <div class="tomato">
+                    <img class="svg" src="assets/img/tomato-active.svg" alt="">
+                </div>
+                <h1>Умничка моя</h1>
+            </div>
+            <div class="paper">
+                <p>
+                    Поздравляю, ты нашла все мои записочки!<br>
+                    Но тебе наверное интересно что за цифры на них?<br>
+                    Ответ найди сама, скажу только одно - <b title="Шифр A1Z26">A1Z26</b>
+                </p>
+            </div>
+            <div class="carts row-one">
+                <div class="cart one">
+                    <span>10-27-10</span>
+                </div>
+                <div class="cart two">
+                    <span>14-6-15-33</span>
+                </div>
+            </div>
+            <div class="carts row-two">
+                <div class="cart three">
+                    <span>12-1-12</span>
+                </div>
+                <div class="cart four">
+                    <span>8-31-13-31</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="snow animated slideInUp">
+        <img src="assets/img/snow.svg" alt="">
+    </div>
+    <script src="assets/js/libs/svginline.min.js"></script>
+    <script src="assets/js/libs/sketch.min.js"></script>
+    <script src="assets/js/libs/snow.js"></script>
+    <script src="assets/js/libs/plugins.js"></script>
+    <script src="assets/js/libs/arc.min.js"></script>
+    <script>
+    $('h1').circleType({
+        radius: 500,
+        dir: -1
+    });
+    </script>
+</body>
+
+</html>
